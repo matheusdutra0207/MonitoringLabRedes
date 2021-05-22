@@ -1,0 +1,3 @@
+nslookup==1.4.0
+requests==2.25.1
+icmplib==2.1.1

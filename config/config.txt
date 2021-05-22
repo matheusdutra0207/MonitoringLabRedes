@@ -1,0 +1,14 @@
+--- Monitor's configurate file -----
+
+Ping
+127.0.0.1
+127.0.0.1
+8.8.8.8
+127.0.0.1
+
+Dns
+8.8.8.8
+
+GetRequest
+google.com.br
+github.com
