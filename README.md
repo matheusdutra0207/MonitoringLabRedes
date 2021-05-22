@@ -28,7 +28,7 @@ docker build --tag=labredes2021 .
 # Containers
 Run the container "monitor".
 
--sudo docker run --rm --network=host --name=monitor labredes2021 python3 monitor.py "HostServer" "PortServer" "Domain to Dns-test" "Interval time in secunds of each monitoring"
+- sudo docker run --rm --network=host --name=monitor labredes2021 python3 monitor.py "HostServer" "PortServer" "Domain to Dns-test" "Interval time in secunds of each monitoring"
 
 por exemple:
 
