@@ -21,9 +21,11 @@ First of all you need to install docker. Go to Oficial page for more details abo
 
 Once you have docker installed, you can get the image of this aplication from my repository on Docker Hub.
 
+- docker pull matheusdutra0207/monitoringlabredes
+
   Or you can build the image.
 
-docker build --tag=labredes2021 .
+- docker build --tag=labredes2021 .
 
 # Containers
 Run the container "monitor".
