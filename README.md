@@ -32,7 +32,7 @@ Run the container "monitor".
 
 por exemple:
 
-  'sudo docker run --rm --network=host --name=monitor labredes2021 python3 monitor.py 127.0.0.1 8081 google.com 2'
+  '''sudo docker run --rm --network=host --name=monitor labredes2021 python3 monitor.py 127.0.0.1 8081 google.com 2'''
   
 Or run the container with your own config file:
   
