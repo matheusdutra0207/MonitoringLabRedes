@@ -21,7 +21,7 @@ First of all you need to install docker. Go to Oficial page for more details abo
 
 Once you have docker installed, you can get the image of this aplication from my repository on Docker Hub.
 
-Or you can build the image.
+  Or you can build the image.
 
 docker build --tag=labredes2021 .
 
