@@ -23,7 +23,7 @@ Once you have docker installed, you can get the image of this aplication from my
 
 - docker pull matheusdutra0207/monitoringlabredes
 
-  Or you can build the image.
+Or you can build the image.
 
 - docker build --tag=labredes2021 .
 
