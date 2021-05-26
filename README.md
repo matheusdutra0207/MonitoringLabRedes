@@ -15,7 +15,7 @@ Each service must run in a different container.
 
 # Installation
 
-First of all you need to install docker. Go to Oficial page for more details about installation.
+First of all you need to [install docker](https://docs.docker.com/engine/install/ubuntu/). Go to Oficial page for more details about installation.
 
 # Image
 
@@ -47,4 +47,6 @@ Now, in the same folder run the containers "tcpserver" and "my-apache-app".
 - sudo docker run --rm -p 8081:8081 -v "$(pwd):/app/www" --name=tcpserver labredes2021 python3 server.py 8081
   
 - sudo docker run -it --rm  --name my-apache-app -p 8080:80 -v "$PWD":/usr/local/apache2/htdocs/ httpd:2.4
+
+
  
