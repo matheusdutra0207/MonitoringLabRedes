@@ -48,7 +48,5 @@ Obs: The command above must be in the same folder as your config.txt (One exempl
   
 - sudo docker run -it --rm  --name my-apache-app -p 8080:80 -v "$PWD":/usr/local/apache2/htdocs/ httpd:2.4
 
-![gsdg](C:\Users\Matheus Dutra\Desktop\coisas\git.JPG)
-
 
  
