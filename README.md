@@ -30,21 +30,21 @@ Or you can build the image.
 # Containers
 ## Run the container "monitor".
 
-- sudo docker run --rm --network=host --name=monitor labredes2021 python3 monitor.py "HostServer" "PortServer" "Domain to Dns-test" "Interval time in secunds of each monitoring"
+- sudo docker run --rm --network=host --name=monitor matheusdutra0207/monitoringlabredes python3 monitor.py "HostServer" "PortServer" "Domain to Dns-test" "Interval time in secunds of each monitoring"
 
 ## For exemple:
 
-- sudo docker run --rm --network=host --name=monitor labredes2021 python3 monitor.py 127.0.0.1 8081 google.com 2
+- sudo docker run --rm --network=host --name=monitor matheusdutra0207/monitoringlabredes python3 monitor.py 127.0.0.1 8081 google.com 2
   
 ## Or run the container with your own config file:
   
-- sudo docker run --rm --network=host -v "$PWD:/app/config" --name=monitor2 labredes2021 python3 monitor.py 127.0.0.1 8081 google.com 2
+- sudo docker run --rm --network=host -v "$PWD:/app/config" --name=monitor2 matheusdutra0207/monitoringlabredes python3 monitor.py 127.0.0.1 8081 google.com 2
 
 Obs: The command above must be in the same folder as your config.txt (One exemplo this file are in folder config this same repository).
 
 ## Now, in the same folder run the containers "tcpserver" and "my-apache-app".
   
-- sudo docker run --rm -p 8081:8081 -v "$(pwd):/app/www" --name=tcpserver labredes2021 python3 server.py 8081
+- sudo docker run --rm -p 8081:8081 -v "$(pwd):/app/www" --name=tcpserver matheusdutra0207/monitoringlabredes python3 server.py 8081
   
 - sudo docker run -it --rm  --name my-apache-app -p 8080:80 -v "$PWD":/usr/local/apache2/htdocs/ httpd:2.4
 
